@@ -30,7 +30,6 @@ const projects = [
     tags: ["Flutter", "Dart", "Mobile App"],
     coverImage: "/projects/cuzdan/cuzdan-1.jpg",
     images: [
-      "/projects/cuzdan/cuzdan-0.jpg",
       "/projects/cuzdan/cuzdan-1.jpg",
       "/projects/cuzdan/cuzdan-2.jpg",
       "/projects/cuzdan/cuzdan-3.jpg",
@@ -40,6 +39,7 @@ const projects = [
       "/projects/cuzdan/cuzdan-7.jpg",
       "/projects/cuzdan/cuzdan-8.jpg",
       "/projects/cuzdan/cuzdan-9.jpg",
+      "/projects/cuzdan/cuzdan-10.jpg",
     ],
   },
 ];
