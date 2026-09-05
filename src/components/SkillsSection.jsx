@@ -31,7 +31,11 @@ export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
 
   const filteredSkills = skills.filter(
-    (skill) => activeCategory === "all" || skill.category === activeCategory
+    (skill) =>
+      activeCategory === "all" ||
+      (Array.isArray(skill.category)
+        ? skill.category.includes(activeCategory)
+        : skill.category === activeCategory)
   );
   return (
     <section id="skills" className="py-24 px-4 relative bg-secondary/30">
