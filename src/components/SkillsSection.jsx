@@ -25,7 +25,7 @@ const skills = [
   { name: "Problem Solving", level: 90, category: "embedded" },
 ];
 
-const categories = ["all", "it", "programming", "embedded"];
+const categories = ["all", "it", "programming", "mobile", "embedded"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
