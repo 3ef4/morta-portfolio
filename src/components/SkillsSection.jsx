@@ -16,8 +16,8 @@ const skills = [
   { name: "PHP", level: 65, category: "programming" },
   { name: "HTML/CSS", level: 85, category: "programming" },
   { name: "Web Developing", level: 80, category: "programming" },
-  { name: "Flutter", level: 65, category: "programming"},
-  { name: "Dart", level: 55, category: "programming" },
+  { name: "Flutter", level: 65, category: ["programming", "mobile"] },
+  { name: "Dart", level: 55, category: ["programming", "mobile"] },
 
   // Embedded
   { name: "Arduino", level: 85, category: "embedded" },
