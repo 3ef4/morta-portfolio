@@ -16,6 +16,8 @@ const skills = [
   { name: "PHP", level: 70, category: "programming" },
   { name: "HTML/CSS", level: 85, category: "programming" },
   { name: "Web Developing", level: 75, category: "programming" },
+  { name: "Flutter", level: 50, category: "programming" },
+  { name: "Dart", level: 60, category: "programming" },
 
   // Embedded
   { name: "Arduino", level: 85, category: "embedded" },
@@ -23,7 +25,7 @@ const skills = [
   { name: "Problem Solving", level: 90, category: "embedded" },
 ];
 
-const categories = ["all", "it", "programming", "embedded"];
+const categories = ["all", "it", "programming", "mobile", "embedded"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
