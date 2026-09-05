@@ -11,17 +11,17 @@ const skills = [
   { name: "Microsoft Office", level: 90, category: "it" },
 
   // Programming
-  { name: "Python", level: 80, category: "programming" },
+  { name: "Python", level: 90, category: "programming" },
   { name: "C++", level: 75, category: "programming" },
-  { name: "PHP", level: 70, category: "programming" },
+  { name: "PHP", level: 65, category: "programming" },
   { name: "HTML/CSS", level: 85, category: "programming" },
-  { name: "Web Developing", level: 75, category: "programming" },
-  { name: "Flutter", level: 50, category: "programming" },
-  { name: "Dart", level: 60, category: "programming" },
+  { name: "Web Developing", level: 80, category: "programming" },
+  { name: "Flutter", level: 65, category: ["programming", "mobile"] },
+  { name: "Dart", level: 55, category: ["programming", "mobile"] },
 
   // Embedded
   { name: "Arduino", level: 85, category: "embedded" },
-  { name: "Embedded Systems", level: 80, category: "embedded" },
+  { name: "Embedded Systems", level: 70, category: "embedded" },
   { name: "Problem Solving", level: 90, category: "embedded" },
 ];
 
