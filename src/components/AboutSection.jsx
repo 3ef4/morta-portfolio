@@ -12,19 +12,21 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Systems Maintenance & Technical Problem Solver
+              Software Developer & IT Support Specialist
             </h3>
 
             <p className="text-muted-foreground">
-              Skilled in troubleshooting hardware/software issues, supporting
-              IT infrastructure, and implementing technology solutions across
-              different environments.
+              Extensive practical experience in systems development,
+              technical support, and office solutions. Proficient in web and
+              mobile application development with Python, JavaScript, PHP,
+              and Flutter.
             </p>
 
             <p className="text-muted-foreground">
-              Strong background in programming, embedded systems, and
-              technical problem-solving — with a Bachelor's degree in Medical
-              Instrumentation Techniques Engineering.
+              High expertise in ERP systems and AI tools, with a strong
+              background in embedded systems, networks, and server
+              administration — backed by rapid technical problem-solving
+              abilities.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
